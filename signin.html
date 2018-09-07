@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>登录界面</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<!--theme-style-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Passion+One:400,700,900' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+ <script src="js/responsiveslides.min.js"></script>
+ <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+      $("#slider2").responsiveSlides({
+        auto: true,
+        pager: true,
+        speed: 300,
+        namespace: "callbacks",
+      });
+    });
+  </script>
+</head>
+<body> 
+<!--header-->
+	<div class="header">
+		<div class="header-top">
+			<div class="container">
+			<p class="header-para">注册了解更多内幕</p>
+				<ul class="sign">
+					<li ><a href="signin.html" >SIGN IN</a></li>
+					<li><a href="#" ><span > </span></a></li>			
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+	</div>
+	<div class="header-bottom-top">
+		<div class="container">
+			<div class="search">	
+				<input type="text" value="Search website" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" >
+				<input type="submit"  value="">	
+			</div>
+			<div class="clearfix"> </div>
+			<div class="header-bottom">			
+				<div class="logo">
+					<a href="index.html" class="scroll"><h1><font color="white">上海睦仕咨询管理有限公司</font><h1></a>
+				</div>
+				<div class="top-nav">
+					<span class="menu"> </span>
+					<ul>
+						<li class="active" ><a href="index.html" class="scroll">主页</a></li>
+						<li><a href="about.html" class="scroll"> 关于</a></li>
+						<li><a href="teams.html" class="scroll">我们的团队</a></li>
+						<li><a href="services.html" class="scroll">服务</a></li>
+						<li><a href="sports.html" class="scroll">公司资讯 </a></li>
+						<li><a href="contact.html" class="scroll">联系我们</a></li>
+					</ul>
+					<!-- script-nav -->
+					<!--script-->
+				<script>
+					$("span.menu").click(function(){
+						$(".top-nav ul").slideToggle(500, function(){
+						});
+					});
+			</script>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		</div>
+	</div>
+		<!--content-->
+		<div class="container">
+			<div class="register">
+		  	  <form action="login.php" method="post"> 
+				 <div class="register-top-grid">
+					<h3>PERSONAL INFORMATION</h3>
+					<div class="mation">
+						<span> Name</span>
+						<input type="text" name="name"> 
+						 <span>Email Address</span>
+						 <input type="text" name="email">  
+					</div>
+					 <div class="clearfix"> </div>
+					   <a class="news-letter" href="#">
+						 <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i>Sign in</label>
+						 <input type="submit" value="登录">
+					   </a>
+					 </div>
+				    
+				</form>
+				<div class="clearfix"> </div>
+</div>
+</div>	
+		<!--content-->
+	<!--footer-->
+<div class="footer">
+		<div class="container">
+		
+			<div class="foter-bottom">			
+				 <p class="footer-grid">Copyright &copy; 2018.Company 上海睦仕企业管理咨询有限公司 All rights reserved.More Templates 
+				<div class=" nav-top">				
+					<ul>
+						<li class="active" ><a href="index.html" class="scroll">主页</a></li>
+						<li><a href="about.html" class="scroll"> 关于</a></li>
+						<li><a href="teams.html" class="scroll">我们的团队</a></li>					
+						<li><a href="services.html" class="scroll">服务</a></li>
+						<li><a href="sports.html" class="scroll">公司资讯 </a></li>
+						<li><a href="contact.html" class="scroll">联系我们</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+			</div>
+		
+</body>
+</html>
+
+
